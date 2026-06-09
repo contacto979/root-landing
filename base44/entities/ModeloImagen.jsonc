@@ -1,0 +1,21 @@
+{
+  "name": "ModeloImagen",
+  "type": "object",
+  "properties": {
+    "modelo_key": {
+      "type": "string",
+      "description": "Identificador \u00fanico del modelo (ej: 'A-Frame')"
+    },
+    "img": {
+      "type": "string",
+      "description": "URL de la imagen principal"
+    },
+    "img_hover": {
+      "type": "string",
+      "description": "URL de la imagen al hover (opcional)"
+    }
+  },
+  "required": [
+    "modelo_key"
+  ]
+}
